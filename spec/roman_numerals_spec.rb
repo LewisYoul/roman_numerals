@@ -25,4 +25,7 @@ describe 'Roman Numerals' do
   it "should return CDXCVI if the number is 496" do
     expect(496.convert_to_numeral).to eq("CDXCVI")
   end
+  it "should return CMXCIX if the number is 999" do
+    expect(999.convert_to_numeral).to eq("CMXCIX")
+  end
 end
