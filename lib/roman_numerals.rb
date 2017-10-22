@@ -2,7 +2,9 @@ class Integer
   ROMAN_NUMERAL = {
     1000 => "M",
     500 => "D",
+    400 => "CD",
     100 => "C",
+    90 => "XC",
     50 => "L",
     10 => "X",
     9 => "IX",
