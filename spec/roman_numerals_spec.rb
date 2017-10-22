@@ -22,4 +22,7 @@ describe 'Roman Numerals' do
   it "should return IV when number is 4" do
     expect(4.convert_to_numeral).to eq("IV")
   end
+  it "should return CDXCVI if the number is 496" do
+    expect(496.convert_to_numeral).to eq("CDXCVI")
+  end
 end
