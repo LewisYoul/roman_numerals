@@ -28,4 +28,7 @@ describe 'Roman Numerals' do
   it "should return CMXCIX if the number is 999" do
     expect(999.convert_to_numeral).to eq("CMXCIX")
   end
+  it "should return M if the number is 1000" do
+    expect(1000.convert_to_numeral).to eq("M")
+  end
 end
