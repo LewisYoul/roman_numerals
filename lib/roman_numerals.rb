@@ -1,4 +1,7 @@
 class Integer
+
+  #Create ROMAN_NUMERAL hash that is a constant for the class
+  #This will be referenced from within convert_to_numeral
   ROMAN_NUMERAL = {
     1000 => "M",
     900 => "CM",
@@ -14,7 +17,7 @@ class Integer
     1 => "I"
   }
 
-
+  #Define method for converting integers to roman numerals
   def convert_to_numeral
     num = self
     string = ""
